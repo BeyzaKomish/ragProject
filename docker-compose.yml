@@ -14,7 +14,7 @@ services:
       PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
       DEFAULT_VECTORIZER_MODULE: 'text2vec-cohere'
       ENABLE_MODULES: 'text2vec-cohere'
-      COHERE_APIKEY: 'mkeWXPberTxNnBAbyuaIsnjyNcxh8RPjooqSPqmw'
+      COHERE_APIKEY: 'YOUR_COHERE_API_KEY' 
       CLUSTER_HOSTNAME: 'node1'
 
 volumes:
